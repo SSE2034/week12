@@ -37,7 +37,6 @@ void Vector::print(){
 }
 
 void sort(Vector& v){
-    int temp;
     for(int i=v.get_back();i>0;i--){
         for(int j=0;j<i;j++){
             if(v.get_value(j)<v.get_value(j+1)){
